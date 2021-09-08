@@ -1,0 +1,203 @@
+body
+{
+    background-color:#1f7f80
+}
+/* navigation */
+#navbar
+{
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+#img
+{
+    height: 44px;
+    width: 64px;
+}
+#navbar ul li a
+{
+    font-size: 1rem;
+    padding: 3px 15px
+}
+#navbar::before
+{
+    width: 100%;
+}
+
+/* home section  */
+.section
+{
+height: 270px;
+padding: 3px 20px;
+
+}
+.section p
+{
+    font-size: 0.5rem;
+}
+.section::before
+{
+    height: 53%;
+    width: 100%;
+}
+
+
+
+
+/* services section  */
+
+#services
+{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+#services .box
+{
+    padding: 11px 46px;
+    margin: 16px 3px;
+    width: 4px;
+    height:  116px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#box1
+{
+ animation: gaurav1 2s ease-in forwards;
+ 
+}
+@keyframes gaurav1
+{
+form
+{
+    background-color:#1f7f80;
+    padding: 11px 73px;
+}
+to 
+{
+    background-color: rgb(216, 41, 85);
+    padding: 11px 46px;
+}
+}
+#box2
+{
+ animation: gaurav2 2s ease-in 2s forwards;
+}
+@keyframes gaurav2
+{
+form
+{
+    background-color:#1f7f80;
+    padding: 11px 73px;
+
+}
+to 
+{
+    background-color: rgb(16, 218, 66);
+    padding: 11px 46px;
+}
+}
+#box3
+{
+ animation: gaurav3 2s ease-in 4s forwards;
+}
+@keyframes gaurav3
+{
+form
+{
+    background-color:#1f7f80;
+   
+}
+to 
+{
+    background-color: rgb(223, 219, 17);
+   
+}
+
+}
+
+#services .box img
+{
+    height: 33px;
+    margin-left: -18px;
+}
+
+#services .box p
+{
+    font-size: 0.0rem;
+    padding: 8px 4px;
+    margin: 2px -59px;
+}
+
+
+/* client section  */
+
+#client-section
+{
+    height: 194px;
+}
+#client-section::before
+{
+    height: 30%;
+    width: 100%;
+    opacity: 1;
+}
+#clients img
+{
+    height: 25px;
+    margin: -11px -13px;
+}
+
+/* contact section  */
+
+#contact
+{
+height: 10%;
+}
+#contact-box label
+{
+    font-size: 1rem;
+}
+#contact-box input, #contact-box textarea
+{
+    font-size: 0.8rem;
+}
+
+#contact::before
+{
+       height: 97%;
+    width: 100%;
+    opacity: 1;
+}
+#contact-box
+{
+    padding-bottom: 0px
+}
+#message
+{
+    height: 10px;
+}
+footer
+{
+    height: 10px;
+    font-size: 0.7rem;
+}
+/* utility calsses  */
+
+.h-primary
+{
+    font-size: 1.2rem;
+   
+}
+.h-secondary
+{
+    font-size: 1rem;
+}
+.btn
+{
+    font-size: 0.7rem;
+}
